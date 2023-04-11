@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428B78C29E4375A00A4CB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428B78B29E4375A00A4CB56 /* AppDelegate.swift */; };
+		0428B78E29E4375A00A4CB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428B78D29E4375A00A4CB56 /* SceneDelegate.swift */; };
+		0428B79029E4375A00A4CB56 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428B78F29E4375A00A4CB56 /* MainTabbarViewController.swift */; };
+		0428B79529E4375A00A4CB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428B79429E4375A00A4CB56 /* Assets.xcassets */; };
+		04D53C9529E5777700658C1A /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C7A29E5777700658C1A /* CircularProgressBarView.swift */; };
+		04D53C9629E5777700658C1A /* DefaultWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C7B29E5777700658C1A /* DefaultWhiteButton.swift */; };
+		04D53C9729E5777700658C1A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C7D29E5777700658C1A /* Logger.swift */; };
+		04D53C9829E5777700658C1A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C7F29E5777700658C1A /* UIView.swift */; };
+		04D53C9929E5777700658C1A /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8029E5777700658C1A /* UICollectionView.swift */; };
+		04D53C9A29E5777700658C1A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8229E5777700658C1A /* Date.swift */; };
+		04D53C9B29E5777700658C1A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8329E5777700658C1A /* String.swift */; };
+		04D53C9C29E5777700658C1A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8429E5777700658C1A /* Double.swift */; };
+		04D53C9D29E5777700658C1A /* SKCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8529E5777700658C1A /* SKCardView.swift */; };
+		04D53C9E29E5777700658C1A /* SKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53C8629E5777700658C1A /* SKTextField.swift */; };
+		04D53CAD29E5790A00658C1A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CAC29E5790A00658C1A /* FavoritesViewController.swift */; };
+		04D53CB829E579D900658C1A /* InformationSearchingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 04D53CAF29E579D900658C1A /* InformationSearchingAnimation.json */; };
+		04D53CBA29E579D900658C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D53CB129E579D900658C1A /* LaunchScreen.storyboard */; };
+		04D53CBB29E579D900658C1A /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CB429E579D900658C1A /* Screen.swift */; };
+		04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CB529E579D900658C1A /* ColorPalette.swift */; };
+		04D53CBD29E579D900658C1A /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CB629E579D900658C1A /* URLs.swift */; };
+		04D53CC029E6129600658C1A /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CBF29E6129600658C1A /* HousesViewController.swift */; };
+		04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC129E612A000658C1A /* LocationViewController.swift */; };
+		04D53CC529E612BA00658C1A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC429E612BA00658C1A /* UserViewController.swift */; };
+		0FD010A6DB53CE0FDB652DFF /* Pods_Rentify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0428B78829E4375A00A4CB56 /* Rentify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rentify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428B78B29E4375A00A4CB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0428B78D29E4375A00A4CB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0428B78F29E4375A00A4CB56 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		0428B79429E4375A00A4CB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		04D53C7A29E5777700658C1A /* CircularProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		04D53C7B29E5777700658C1A /* DefaultWhiteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWhiteButton.swift; sourceTree = "<group>"; };
+		04D53C7D29E5777700658C1A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		04D53C7F29E5777700658C1A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		04D53C8029E5777700658C1A /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		04D53C8229E5777700658C1A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		04D53C8329E5777700658C1A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		04D53C8429E5777700658C1A /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		04D53C8529E5777700658C1A /* SKCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCardView.swift; sourceTree = "<group>"; };
+		04D53C8629E5777700658C1A /* SKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextField.swift; sourceTree = "<group>"; };
+		04D53CAC29E5790A00658C1A /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		04D53CAF29E579D900658C1A /* InformationSearchingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InformationSearchingAnimation.json; sourceTree = "<group>"; };
+		04D53CB229E579D900658C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D53CB429E579D900658C1A /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		04D53CB529E579D900658C1A /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		04D53CB629E579D900658C1A /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		04D53CB729E579D900658C1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D53CBF29E6129600658C1A /* HousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
+		04D53CC129E612A000658C1A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		04D53CC429E612BA00658C1A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.debug.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rentify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.release.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428B78529E4375A00A4CB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD010A6DB53CE0FDB652DFF /* Pods_Rentify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428B77F29E4375A00A4CB56 = {
+			isa = PBXGroup;
+			children = (
+				0428B78A29E4375A00A4CB56 /* Rentify */,
+				0428B78929E4375A00A4CB56 /* Products */,
+				79F7118B882ED6C740EDEEC5 /* Pods */,
+				B5F2D5A7144943D58714D9FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0428B78929E4375A00A4CB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428B78829E4375A00A4CB56 /* Rentify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428B78A29E4375A00A4CB56 /* Rentify */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CAE29E579D900658C1A /* Resourses */,
+				04D53C7929E5777700658C1A /* CustomControls */,
+				04D53CA929E578D100658C1A /* Scenes */,
+				0428B78B29E4375A00A4CB56 /* AppDelegate.swift */,
+				0428B78D29E4375A00A4CB56 /* SceneDelegate.swift */,
+			);
+			path = Rentify;
+			sourceTree = "<group>";
+		};
+		04D53C7929E5777700658C1A /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				04D53C7A29E5777700658C1A /* CircularProgressBarView.swift */,
+				04D53C7B29E5777700658C1A /* DefaultWhiteButton.swift */,
+				04D53C7C29E5777700658C1A /* Extensions */,
+				04D53C8529E5777700658C1A /* SKCardView.swift */,
+				04D53C8629E5777700658C1A /* SKTextField.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		04D53C7C29E5777700658C1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04D53C7D29E5777700658C1A /* Logger.swift */,
+				04D53C7E29E5777700658C1A /* UIKit */,
+				04D53C8129E5777700658C1A /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04D53C7E29E5777700658C1A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				04D53C7F29E5777700658C1A /* UIView.swift */,
+				04D53C8029E5777700658C1A /* UICollectionView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		04D53C8129E5777700658C1A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				04D53C8229E5777700658C1A /* Date.swift */,
+				04D53C8329E5777700658C1A /* String.swift */,
+				04D53C8429E5777700658C1A /* Double.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		04D53CA929E578D100658C1A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CAA29E578EF00658C1A /* Authorization */,
+				04D53CAB29E578F600658C1A /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		04D53CAA29E578EF00658C1A /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		04D53CAB29E578F600658C1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0428B78F29E4375A00A4CB56 /* MainTabbarViewController.swift */,
+				04D53CAC29E5790A00658C1A /* FavoritesViewController.swift */,
+				04D53CBF29E6129600658C1A /* HousesViewController.swift */,
+				04D53CC129E612A000658C1A /* LocationViewController.swift */,
+				04D53CC429E612BA00658C1A /* UserViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04D53CAE29E579D900658C1A /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CAF29E579D900658C1A /* InformationSearchingAnimation.json */,
+				0428B79429E4375A00A4CB56 /* Assets.xcassets */,
+				04D53CB129E579D900658C1A /* LaunchScreen.storyboard */,
+				04D53CB329E579D900658C1A /* Static */,
+				04D53CB729E579D900658C1A /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		04D53CB329E579D900658C1A /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CB429E579D900658C1A /* Screen.swift */,
+				04D53CB529E579D900658C1A /* ColorPalette.swift */,
+				04D53CB629E579D900658C1A /* URLs.swift */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		79F7118B882ED6C740EDEEC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */,
+				A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5F2D5A7144943D58714D9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428B78729E4375A00A4CB56 /* Rentify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428B79C29E4375A00A4CB56 /* Build configuration list for PBXNativeTarget "Rentify" */;
+			buildPhases = (
+				E68E64EB3DAF19B315842C94 /* [CP] Check Pods Manifest.lock */,
+				0428B78429E4375A00A4CB56 /* Sources */,
+				0428B78529E4375A00A4CB56 /* Frameworks */,
+				0428B78629E4375A00A4CB56 /* Resources */,
+				7EA1C98FBB2191D0EBEDCA63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rentify;
+			productName = Rentify;
+			productReference = 0428B78829E4375A00A4CB56 /* Rentify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428B78029E4375A00A4CB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0428B78729E4375A00A4CB56 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0428B78329E4375A00A4CB56 /* Build configuration list for PBXProject "Rentify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428B77F29E4375A00A4CB56;
+			productRefGroup = 0428B78929E4375A00A4CB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428B78729E4375A00A4CB56 /* Rentify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428B78629E4375A00A4CB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53CB829E579D900658C1A /* InformationSearchingAnimation.json in Resources */,
+				04D53CBA29E579D900658C1A /* LaunchScreen.storyboard in Resources */,
+				0428B79529E4375A00A4CB56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EA1C98FBB2191D0EBEDCA63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rentify/Pods-Rentify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rentify/Pods-Rentify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rentify/Pods-Rentify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68E64EB3DAF19B315842C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rentify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428B78429E4375A00A4CB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D53C9E29E5777700658C1A /* SKTextField.swift in Sources */,
+				04D53CC529E612BA00658C1A /* UserViewController.swift in Sources */,
+				04D53CBD29E579D900658C1A /* URLs.swift in Sources */,
+				0428B79029E4375A00A4CB56 /* MainTabbarViewController.swift in Sources */,
+				04D53CC029E6129600658C1A /* HousesViewController.swift in Sources */,
+				04D53C9729E5777700658C1A /* Logger.swift in Sources */,
+				04D53C9B29E5777700658C1A /* String.swift in Sources */,
+				0428B78C29E4375A00A4CB56 /* AppDelegate.swift in Sources */,
+				04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */,
+				04D53C9829E5777700658C1A /* UIView.swift in Sources */,
+				04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */,
+				04D53C9629E5777700658C1A /* DefaultWhiteButton.swift in Sources */,
+				04D53CAD29E5790A00658C1A /* FavoritesViewController.swift in Sources */,
+				04D53C9D29E5777700658C1A /* SKCardView.swift in Sources */,
+				04D53C9529E5777700658C1A /* CircularProgressBarView.swift in Sources */,
+				04D53C9929E5777700658C1A /* UICollectionView.swift in Sources */,
+				04D53C9A29E5777700658C1A /* Date.swift in Sources */,
+				04D53CBB29E579D900658C1A /* Screen.swift in Sources */,
+				04D53C9C29E5777700658C1A /* Double.swift in Sources */,
+				0428B78E29E4375A00A4CB56 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D53CB129E579D900658C1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D53CB229E579D900658C1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0428B79A29E4375A00A4CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0428B79B29E4375A00A4CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428B79D29E4375A00A4CB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53NK75LZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rentify/Resourses/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayu.Rentify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0428B79E29E4375A00A4CB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53NK75LZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rentify/Resourses/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayu.Rentify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428B78329E4375A00A4CB56 /* Build configuration list for PBXProject "Rentify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428B79A29E4375A00A4CB56 /* Debug */,
+				0428B79B29E4375A00A4CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428B79C29E4375A00A4CB56 /* Build configuration list for PBXNativeTarget "Rentify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428B79D29E4375A00A4CB56 /* Debug */,
+				0428B79E29E4375A00A4CB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428B78029E4375A00A4CB56 /* Project object */;
+}
