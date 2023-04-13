@@ -10,12 +10,16 @@ import SnapKit
 
 class HousesViewController: UIViewController {
     
+    let mainTableViewCellIds: [String] = [
+        DiscoverTableViewCell.id
+    ]
+    
     lazy var mainTableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
-        tableView.delegate = self
-        tableView.backgroundColor = .red
-//        tableView.register(1, forCellReuseIdentifier: "MainTableViewCell")
+        tableView.dataSource = self
+        tableView.backgroundColor = .white
+        tableView.register(DiscoverTableViewCell.self, forCellReuseIdentifier: DiscoverTableViewCell.id)
         return tableView
     }()
 
@@ -23,7 +27,6 @@ class HousesViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupMainTableView()
-        // Do any additional setup after loading the view.
     }
 
 }
@@ -34,8 +37,8 @@ extension HousesViewController {
         view.addSubview(mainTableView)
         
         mainTableView.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(view.snp.topMargin).inset(24)
+            make.left.right.equalToSuperview()
+            make.top.equalTo(view.snp.topMargin)
             make.bottom.equalToSuperview()
         }
     }
@@ -45,12 +48,25 @@ extension HousesViewController {
 
 extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        print(mainTableViewCellIds.count)
+        return mainTableViewCellIds.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell(frame: .zero)
+        var cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
+//        switch indexPath.row {
+//        case 0:
+//            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
+            
+//        default:
+//            print(1)
+//        }
+        return cell
     }
     
     

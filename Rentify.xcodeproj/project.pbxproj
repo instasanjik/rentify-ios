@@ -30,6 +30,9 @@
 		04D53CC029E6129600658C1A /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CBF29E6129600658C1A /* HousesViewController.swift */; };
 		04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC129E612A000658C1A /* LocationViewController.swift */; };
 		04D53CC529E612BA00658C1A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC429E612BA00658C1A /* UserViewController.swift */; };
+		04D53CCA29E7226300658C1A /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */; };
+		04D53CCC29E83E3600658C1A /* DiscoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */; };
+		04D53CCF29E8482000658C1A /* LandlordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */; };
 		0FD010A6DB53CE0FDB652DFF /* Pods_Rentify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		04D53CBF29E6129600658C1A /* HousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
 		04D53CC129E612A000658C1A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		04D53CC429E612BA00658C1A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordsTableViewCell.swift; sourceTree = "<group>"; };
 		46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.debug.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rentify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.release.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 		04D53C7929E5777700658C1A /* CustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				04D53CCD29E8480000658C1A /* CollectionViewCells */,
+				04D53CC629E7223F00658C1A /* TableViewCells */,
 				04D53C7A29E5777700658C1A /* CircularProgressBarView.swift */,
 				04D53C7B29E5777700658C1A /* DefaultWhiteButton.swift */,
 				04D53C7C29E5777700658C1A /* Extensions */,
@@ -195,6 +203,23 @@
 				04D53CB629E579D900658C1A /* URLs.swift */,
 			);
 			path = Static;
+			sourceTree = "<group>";
+		};
+		04D53CC629E7223F00658C1A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */,
+				04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		04D53CCD29E8480000658C1A /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 		79F7118B882ED6C740EDEEC5 /* Pods */ = {
@@ -334,12 +359,14 @@
 				04D53CBD29E579D900658C1A /* URLs.swift in Sources */,
 				0428B79029E4375A00A4CB56 /* MainTabbarViewController.swift in Sources */,
 				04D53CC029E6129600658C1A /* HousesViewController.swift in Sources */,
+				04D53CCA29E7226300658C1A /* DiscoverTableViewCell.swift in Sources */,
 				04D53C9729E5777700658C1A /* Logger.swift in Sources */,
 				04D53C9B29E5777700658C1A /* String.swift in Sources */,
 				0428B78C29E4375A00A4CB56 /* AppDelegate.swift in Sources */,
 				04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */,
 				04D53C9829E5777700658C1A /* UIView.swift in Sources */,
 				04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */,
+				04D53CCC29E83E3600658C1A /* DiscoverCollectionViewCell.swift in Sources */,
 				04D53C9629E5777700658C1A /* DefaultWhiteButton.swift in Sources */,
 				04D53CAD29E5790A00658C1A /* FavoritesViewController.swift in Sources */,
 				04D53C9D29E5777700658C1A /* SKCardView.swift in Sources */,
@@ -347,6 +374,7 @@
 				04D53C9929E5777700658C1A /* UICollectionView.swift in Sources */,
 				04D53C9A29E5777700658C1A /* Date.swift in Sources */,
 				04D53CBB29E579D900658C1A /* Screen.swift in Sources */,
+				04D53CCF29E8482000658C1A /* LandlordsTableViewCell.swift in Sources */,
 				04D53C9C29E5777700658C1A /* Double.swift in Sources */,
 				0428B78E29E4375A00A4CB56 /* SceneDelegate.swift in Sources */,
 			);
