@@ -14,7 +14,7 @@ class NewAdsTableViewCell: UITableViewCell {
     static let id = "NewAdsTableViewCell"
     static let REQUIRED_HEIGHT: CGFloat = 200
     
-    lazy var landlordsLabel: UILabel = {
+    lazy var newAdsLabel: UILabel = {
         let label = UILabel()
         label.text = "New in Astana"
         label.font = .systemFont(ofSize: 26, weight: .semibold)
@@ -55,8 +55,8 @@ class NewAdsTableViewCell: UITableViewCell {
 extension NewAdsTableViewCell {
     
     fileprivate func setupMainLabel() {
-        addSubview(landlordsLabel)
-        landlordsLabel.snp.makeConstraints { make in
+        addSubview(newAdsLabel)
+        newAdsLabel.snp.makeConstraints { make in
             make.top.equalToSuperview().inset(16)
             make.left.equalToSuperview().inset(24)
             make.right.equalToSuperview()
@@ -67,7 +67,7 @@ extension NewAdsTableViewCell {
     fileprivate func setupCollectionView() {
         addSubview(adsCollectionView)
         adsCollectionView.snp.makeConstraints { make in
-            make.top.equalTo(landlordsLabel.snp.bottom).offset(4)
+            make.top.equalTo(newAdsLabel.snp.bottom).offset(4)
             make.left.right.equalToSuperview()
             make.height.equalTo(148)
         }
