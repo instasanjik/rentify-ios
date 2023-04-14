@@ -61,12 +61,17 @@ extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 210
+        switch indexPath.row {
+        case 0: return DiscoverTableViewCell.REQUIRED_HEIGHT
+        case 1: return LandlordsTableViewCell.REQUIRED_HEIGHT
+        case 2: return NewAdsTableViewCell.REQUIRED_HEIGHT
+        default: return 210
+        }
     }
     
     

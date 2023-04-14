@@ -12,6 +12,7 @@ import SnapKit
 class NewAdsTableViewCell: UITableViewCell {
     
     static let id = "NewAdsTableViewCell"
+    static let REQUIRED_HEIGHT: CGFloat = 200
     
     lazy var landlordsLabel: UILabel = {
         let label = UILabel()
@@ -68,7 +69,7 @@ extension NewAdsTableViewCell {
         adsCollectionView.snp.makeConstraints { make in
             make.top.equalTo(landlordsLabel.snp.bottom).offset(4)
             make.left.right.equalToSuperview()
-            make.height.equalTo(140)
+            make.height.equalTo(148)
         }
     }
     

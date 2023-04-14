@@ -12,6 +12,7 @@ import SnapKit
 class DiscoverTableViewCell: UITableViewCell {
     
     static let id = "DiscoverTableViewCell"
+    static let REQUIRED_HEIGHT: CGFloat = 210
     
     lazy var discoverLabel: UILabel = {
         let label = UILabel()
@@ -68,7 +69,7 @@ extension DiscoverTableViewCell {
         adsCollectionView.snp.makeConstraints { make in
             make.top.equalTo(discoverLabel.snp.bottom).offset(4)
             make.left.right.equalToSuperview()
-            make.height.equalTo(170)
+            make.height.equalTo(182)
         }
     }
     
