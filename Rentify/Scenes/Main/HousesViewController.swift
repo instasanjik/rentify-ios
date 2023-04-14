@@ -11,7 +11,8 @@ import SnapKit
 class HousesViewController: UIViewController {
     
     let mainTableViewCellIds: [String] = [
-        DiscoverTableViewCell.id
+        DiscoverTableViewCell.id,
+        LandlordsTableViewCell.id
     ]
     
     lazy var mainTableView: UITableView = {
@@ -20,6 +21,7 @@ class HousesViewController: UIViewController {
         tableView.dataSource = self
         tableView.backgroundColor = .white
         tableView.register(DiscoverTableViewCell.self, forCellReuseIdentifier: DiscoverTableViewCell.id)
+        tableView.register(LandlordsTableViewCell.self, forCellReuseIdentifier: LandlordsTableViewCell.id)
         return tableView
     }()
 
@@ -37,8 +39,8 @@ extension HousesViewController {
         view.addSubview(mainTableView)
         
         mainTableView.snp.makeConstraints { make in
-            make.left.right.equalToSuperview()
             make.top.equalTo(view.snp.topMargin)
+            make.left.right.equalToSuperview()
             make.bottom.equalToSuperview()
         }
     }
@@ -53,20 +55,22 @@ extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(mainTableViewCellIds.count)
         return mainTableViewCellIds.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
-//        switch indexPath.row {
-//        case 0:
-//            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
-            
-//        default:
-//            print(1)
-//        }
+        var cell = UITableViewCell()
+        switch indexPath.row {
+        case 0:
+            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
+        default:
+            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! LandlordsTableViewCell
+        }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 210
     }
     
     

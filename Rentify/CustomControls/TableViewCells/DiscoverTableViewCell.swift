@@ -16,7 +16,7 @@ class DiscoverTableViewCell: UITableViewCell {
     lazy var discoverLabel: UILabel = {
         let label = UILabel()
         label.text = "Discover"
-        label.font = .systemFont(ofSize: 28, weight: .bold)
+        label.font = .systemFont(ofSize: 26, weight: .semibold)
         label.textColor = .black
         return label
     }()
@@ -37,10 +37,6 @@ class DiscoverTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         backgroundColor = .white
-        self.snp.makeConstraints { make in
-            make.width.equalTo(UIScreen.main.bounds.width)
-            make.height.greaterThanOrEqualTo(240)
-        }
     }
     
     override func layoutSubviews() {
@@ -63,7 +59,7 @@ extension DiscoverTableViewCell {
             make.top.equalToSuperview().inset(16)
             make.left.equalToSuperview().inset(24)
             make.right.equalToSuperview()
-            make.height.equalTo(24)
+            make.height.equalTo(22)
         }
     }
     
@@ -71,7 +67,8 @@ extension DiscoverTableViewCell {
         addSubview(adsCollectionView)
         adsCollectionView.snp.makeConstraints { make in
             make.top.equalTo(discoverLabel.snp.bottom).offset(4)
-            make.left.right.bottom.equalToSuperview()
+            make.left.right.equalToSuperview()
+            make.height.equalTo(170)
         }
     }
     

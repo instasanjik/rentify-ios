@@ -38,7 +38,7 @@ class DiscoverCollectionViewCell: UICollectionViewCell {
     
     lazy var cityNameLabel: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 18)
+        label.font = .systemFont(ofSize: 16)
         label.textColor = .black
         label.text = "Astana"
         return label
@@ -46,7 +46,7 @@ class DiscoverCollectionViewCell: UICollectionViewCell {
     
     lazy var priceLabel: UILabel = {
         let label = UILabel()
-        label.font = .systemFont(ofSize: 14, weight: .medium)
+        label.font = .systemFont(ofSize: 12, weight: .medium)
         label.textColor = UIColor(red: 0.546, green: 0.546, blue: 0.546, alpha: 1)
         label.text = "$1,200"
         return label
@@ -64,7 +64,7 @@ class DiscoverCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "5.0"
         label.textColor = .black
-        label.font = .systemFont(ofSize: 14, weight: .medium)
+        label.font = .systemFont(ofSize: 12, weight: .medium)
         return label
     }()
     
@@ -76,7 +76,7 @@ class DiscoverCollectionViewCell: UICollectionViewCell {
     lazy var personsLabel: UILabel = {
         let label = UILabel()
         label.text = "3"
-        label.font = .systemFont(ofSize: 14, weight: .medium)
+        label.font = .systemFont(ofSize: 12, weight: .medium)
         label.textColor = UIColor(red: 0.758, green: 0.758, blue: 0.758, alpha: 1)
         return label
     }()
