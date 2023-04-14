@@ -28,7 +28,7 @@
 		04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CB529E579D900658C1A /* ColorPalette.swift */; };
 		04D53CBD29E579D900658C1A /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CB629E579D900658C1A /* URLs.swift */; };
 		04D53CC029E6129600658C1A /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CBF29E6129600658C1A /* HousesViewController.swift */; };
-		04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC129E612A000658C1A /* LocationViewController.swift */; };
+		04D53CC229E612A000658C1A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC129E612A000658C1A /* SearchViewController.swift */; };
 		04D53CC529E612BA00658C1A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC429E612BA00658C1A /* UserViewController.swift */; };
 		04D53CCA29E7226300658C1A /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */; };
 		04D53CCC29E83E3600658C1A /* DiscoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */; };
@@ -64,7 +64,7 @@
 		04D53CB629E579D900658C1A /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		04D53CB729E579D900658C1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D53CBF29E6129600658C1A /* HousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
-		04D53CC129E612A000658C1A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		04D53CC129E612A000658C1A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		04D53CC429E612BA00658C1A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
 		04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 				0428B78F29E4375A00A4CB56 /* MainTabbarViewController.swift */,
 				04D53CAC29E5790A00658C1A /* FavoritesViewController.swift */,
 				04D53CBF29E6129600658C1A /* HousesViewController.swift */,
-				04D53CC129E612A000658C1A /* LocationViewController.swift */,
+				04D53CC129E612A000658C1A /* SearchViewController.swift */,
 				04D53CC429E612BA00658C1A /* UserViewController.swift */,
 			);
 			path = Main;
@@ -377,7 +377,7 @@
 				04D53CD329E94DB800658C1A /* StarRatingView.swift in Sources */,
 				04D53CD529E9561100658C1A /* NewAdsTableViewCell.swift in Sources */,
 				0428B78C29E4375A00A4CB56 /* AppDelegate.swift in Sources */,
-				04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */,
+				04D53CC229E612A000658C1A /* SearchViewController.swift in Sources */,
 				04D53CD129E946C100658C1A /* LandlordsCollectionViewCell.swift in Sources */,
 				04D53C9829E5777700658C1A /* UIView.swift in Sources */,
 				04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */,

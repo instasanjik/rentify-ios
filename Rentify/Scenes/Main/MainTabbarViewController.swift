@@ -13,7 +13,7 @@ class MainTabbarViewController: UITabBarController {
         super.viewDidLoad()
         configureViewControllers()
         updateTabbarUI()
-        selectedIndex = 1
+        selectedIndex = 2
     }
     
 
@@ -55,7 +55,7 @@ extension MainTabbarViewController {
         viewControllers = [
             prepareViewController(FavoritesViewController(), imageName: "Favorites_OFF"),
             prepareViewController(HousesViewController(), imageName: "House_OFF"),
-            prepareViewController(LocationViewController(), imageName: "Location_OFF"),
+            prepareViewController(SearchViewColtroller(), imageName: "Location_OFF"),
             prepareViewController(UserViewController(), imageName: "User_OFF")
         ]
     }
