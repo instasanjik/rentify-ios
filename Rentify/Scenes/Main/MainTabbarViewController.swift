@@ -53,10 +53,10 @@ extension MainTabbarViewController {
     
     func configureViewControllers() {
         viewControllers = [
-            prepareViewController(FavoritesViewController(), imageName: "Favorites_OFF"),
-            prepareViewController(HousesViewController(), imageName: "House_OFF"),
-            prepareViewController(SearchViewColtroller(), imageName: "Location_OFF"),
-            prepareViewController(UserViewController(), imageName: "User_OFF")
+            prepareViewController(FavoritesViewController(), imageName: "Favorites"),
+            prepareViewController(HousesViewController(), imageName: "House"),
+            prepareViewController(SearchViewColtroller(), imageName: "Magnifier"),
+            prepareViewController(UserViewController(), imageName: "User")
         ]
     }
     
