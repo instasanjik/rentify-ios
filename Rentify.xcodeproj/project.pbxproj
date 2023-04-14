@@ -35,6 +35,8 @@
 		04D53CCF29E8482000658C1A /* LandlordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */; };
 		04D53CD129E946C100658C1A /* LandlordsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CD029E946C100658C1A /* LandlordsCollectionViewCell.swift */; };
 		04D53CD329E94DB800658C1A /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CD229E94DB800658C1A /* StarRatingView.swift */; };
+		04D53CD529E9561100658C1A /* NewAdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CD429E9561100658C1A /* NewAdsTableViewCell.swift */; };
+		04D53CD729E9562100658C1A /* NewAdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CD629E9562100658C1A /* NewAdsCollectionViewCell.swift */; };
 		0FD010A6DB53CE0FDB652DFF /* Pods_Rentify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordsTableViewCell.swift; sourceTree = "<group>"; };
 		04D53CD029E946C100658C1A /* LandlordsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordsCollectionViewCell.swift; sourceTree = "<group>"; };
 		04D53CD229E94DB800658C1A /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		04D53CD429E9561100658C1A /* NewAdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAdsTableViewCell.swift; sourceTree = "<group>"; };
+		04D53CD629E9562100658C1A /* NewAdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAdsCollectionViewCell.swift; sourceTree = "<group>"; };
 		46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.debug.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rentify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.release.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +219,7 @@
 			children = (
 				04D53CC929E7226300658C1A /* DiscoverTableViewCell.swift */,
 				04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */,
+				04D53CD429E9561100658C1A /* NewAdsTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			children = (
 				04D53CCB29E83E3600658C1A /* DiscoverCollectionViewCell.swift */,
 				04D53CD029E946C100658C1A /* LandlordsCollectionViewCell.swift */,
+				04D53CD629E9562100658C1A /* NewAdsCollectionViewCell.swift */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -369,6 +375,7 @@
 				04D53C9729E5777700658C1A /* Logger.swift in Sources */,
 				04D53C9B29E5777700658C1A /* String.swift in Sources */,
 				04D53CD329E94DB800658C1A /* StarRatingView.swift in Sources */,
+				04D53CD529E9561100658C1A /* NewAdsTableViewCell.swift in Sources */,
 				0428B78C29E4375A00A4CB56 /* AppDelegate.swift in Sources */,
 				04D53CC229E612A000658C1A /* LocationViewController.swift in Sources */,
 				04D53CD129E946C100658C1A /* LandlordsCollectionViewCell.swift in Sources */,
@@ -378,6 +385,7 @@
 				04D53C9629E5777700658C1A /* DefaultWhiteButton.swift in Sources */,
 				04D53CAD29E5790A00658C1A /* FavoritesViewController.swift in Sources */,
 				04D53C9D29E5777700658C1A /* SKCardView.swift in Sources */,
+				04D53CD729E9562100658C1A /* NewAdsCollectionViewCell.swift in Sources */,
 				04D53C9529E5777700658C1A /* CircularProgressBarView.swift in Sources */,
 				04D53C9929E5777700658C1A /* UICollectionView.swift in Sources */,
 				04D53C9A29E5777700658C1A /* Date.swift in Sources */,

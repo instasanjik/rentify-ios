@@ -12,7 +12,8 @@ class HousesViewController: UIViewController {
     
     let mainTableViewCellIds: [String] = [
         DiscoverTableViewCell.id,
-        LandlordsTableViewCell.id
+        LandlordsTableViewCell.id,
+        NewAdsTableViewCell.id
     ]
     
     lazy var mainTableView: UITableView = {
@@ -22,6 +23,7 @@ class HousesViewController: UIViewController {
         tableView.backgroundColor = .white
         tableView.register(DiscoverTableViewCell.self, forCellReuseIdentifier: DiscoverTableViewCell.id)
         tableView.register(LandlordsTableViewCell.self, forCellReuseIdentifier: LandlordsTableViewCell.id)
+        tableView.register(NewAdsTableViewCell.self, forCellReuseIdentifier: NewAdsTableViewCell.id)
         return tableView
     }()
 
@@ -59,13 +61,7 @@ extension HousesViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
-        switch indexPath.row {
-        case 0:
-            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! DiscoverTableViewCell
-        default:
-            cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath) as! LandlordsTableViewCell
-        }
+        var cell = tableView.dequeueReusableCell(withIdentifier: mainTableViewCellIds[indexPath.row], for: indexPath)
         return cell
     }
     
