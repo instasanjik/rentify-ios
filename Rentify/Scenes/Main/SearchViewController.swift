@@ -13,7 +13,8 @@ class SearchViewColtroller: UIViewController {
         DiscoverTableViewCell.id,
         LandlordsTableViewCell.id,
         NewAdsTableViewCell.id,
-        ListHeaderTableViewCell.id
+        ListHeaderTableViewCell.id,
+        HouseTableViewCell.id
     ]
     
     lazy var mainTableView: UITableView = {
@@ -25,6 +26,7 @@ class SearchViewColtroller: UIViewController {
         tableView.register(LandlordsTableViewCell.self, forCellReuseIdentifier: LandlordsTableViewCell.id)
         tableView.register(NewAdsTableViewCell.self, forCellReuseIdentifier: NewAdsTableViewCell.id)
         tableView.register(ListHeaderTableViewCell.self, forCellReuseIdentifier: ListHeaderTableViewCell.id)
+        tableView.register(HouseTableViewCell.self, forCellReuseIdentifier: HouseTableViewCell.id)
         return tableView
     }()
 
@@ -73,7 +75,7 @@ extension SearchViewColtroller: UITableViewDelegate, UITableViewDataSource {
         case 1: return LandlordsTableViewCell.REQUIRED_HEIGHT
         case 2: return NewAdsTableViewCell.REQUIRED_HEIGHT
         case 3: return ListHeaderTableViewCell.REQUIRED_HEIGHT
-        default: return 210
+        default: return 276
         }
     }
     
