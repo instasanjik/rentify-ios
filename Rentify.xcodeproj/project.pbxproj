@@ -40,6 +40,7 @@
 		04D53CD929E96D0500658C1A /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CD829E96D0500658C1A /* HouseViewController.swift */; };
 		04D53CDB29E9899100658C1A /* ListHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDA29E9899100658C1A /* ListHeaderTableViewCell.swift */; };
 		04D53CDE29E98C2500658C1A /* PropertyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDD29E98C2500658C1A /* PropertyCollectionViewCell.swift */; };
+		04D53CE029E9B3F200658C1A /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D53CDF29E9B3F200658C1A /* HouseTableViewCell.swift */; };
 		0FD010A6DB53CE0FDB652DFF /* Pods_Rentify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		04D53CD829E96D0500658C1A /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		04D53CDA29E9899100658C1A /* ListHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		04D53CDD29E98C2500658C1A /* PropertyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D53CDF29E9B3F200658C1A /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewCell.swift; sourceTree = "<group>"; };
 		46344554F71105BDD29597A2 /* Pods-Rentify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.debug.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9C558653B72ADC78EE22E6 /* Pods_Rentify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rentify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68967C6BE58F866E5D5F7E1 /* Pods-Rentify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rentify.release.xcconfig"; path = "Target Support Files/Pods-Rentify/Pods-Rentify.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				04D53CCE29E8482000658C1A /* LandlordsTableViewCell.swift */,
 				04D53CD429E9561100658C1A /* NewAdsTableViewCell.swift */,
 				04D53CDA29E9899100658C1A /* ListHeaderTableViewCell.swift */,
+				04D53CDF29E9B3F200658C1A /* HouseTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				04D53CBC29E579D900658C1A /* ColorPalette.swift in Sources */,
 				04D53CCC29E83E3600658C1A /* DiscoverCollectionViewCell.swift in Sources */,
 				04D53C9629E5777700658C1A /* DefaultWhiteButton.swift in Sources */,
+				04D53CE029E9B3F200658C1A /* HouseTableViewCell.swift in Sources */,
 				04D53CAD29E5790A00658C1A /* FavoritesViewController.swift in Sources */,
 				04D53C9D29E5777700658C1A /* SKCardView.swift in Sources */,
 				04D53CD729E9562100658C1A /* NewAdsCollectionViewCell.swift in Sources */,
